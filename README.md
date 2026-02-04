@@ -45,17 +45,6 @@ Due to limited time, only the **core components (trained weights and minimal sup
 - Weights:
   - https://huggingface.co/TC0/P2PNet_for_leaf_tip_detection
 
----
-
-## 🧭 Planned Release
-
-The following components are planned for future release:
-
-- Full training and inference code
-- Data preprocessing and annotation pipeline
-- Model evaluation scripts
-- Detailed documentation and usage examples
-- Extended experiments and ablation studies
 
 ---
 
@@ -71,14 +60,6 @@ Please ensure compliance with the corresponding licenses when using the models.
 
 ---
 
-## 📚 Citation
+## 📚 Paper
 
-If you use this work in your research, please cite it as follows:
-
-```bibtex
-@misc{tiancheng_leaf_tip_2026,
-  title  = {Leaf Tip Detection Models for Wheat},
-  author = {Tiancheng},
-  year   = {2026},
-  note   = {Early release}
-}
+https://doi.org/10.1016/j.compag.2025.111053
