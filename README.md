@@ -15,7 +15,7 @@ intended for research and academic use.
 ## ⚠️ Current Status (Early Release)
 
 The **full codebase and complete models are still under active organization and cleanup**.
-Due to limited time, only the **core components (trained weights and minimal supporting materials)** are released at this stage.
+Due to limited time, only the **core components (trained weights and supplementary code (dependent on the original repository))** are released at this stage.
 
 > The complete and fully documented version (including training scripts, evaluation pipeline,
 > and extended experiments) will be released in a future update.
