@@ -29,7 +29,7 @@ Due to limited time, only the **core components (trained weights and supplementa
 
 ### 1. YOLOv8-based Leaf Tip Detection Model
 
-- Model: YOLOv8
+- Model: YOLOv8 (https://github.com/ultralytics/ultralytics/tree/main)
 - Task: Wheat leaf tip detection
 - Weights:
   - https://huggingface.co/TC0/YOLOv8_for_wheat_leaf_tip_detection
@@ -40,7 +40,7 @@ Due to limited time, only the **core components (trained weights and supplementa
 
 ### 2. P2PNet-based Leaf Tip Detection Model
 
-- Model: P2PNet
+- Model: P2PNet (https://github.com/TencentYoutuResearch/CrowdCounting-P2PNet)
 - Task: Wheat leaf tip detection (point-based)
 - Weights:
   - https://huggingface.co/TC0/P2PNet_for_leaf_tip_detection
