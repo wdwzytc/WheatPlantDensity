@@ -1,0 +1,111 @@
+# License Notice / 许可说明
+
+This project incorporates components from **P2PNet** and **YOLOv8**.
+本项目包含来自 **P2PNet** 和 **YOLOv8** 的组件。
+
+---
+
+## 1. Project Modifications / 项目修改说明
+
+This repository modifies the **inference pipeline of P2PNet**, while leaving the original model implementation unchanged unless otherwise specified.
+本仓库对 **P2PNet 的推理流程（inference pipeline）** 进行了修改，除非另有说明，原始模型实现保持不变。
+
+All modifications in this repository are the authors' own work.
+本仓库中的所有修改均为作者自行完成。
+
+---
+
+## 2. P2PNet License (Research-Only) / P2PNet 许可（仅限科研）
+
+P2PNet is developed by Tencent and licensed under a **research-only license**.
+P2PNet 由腾讯开发，并采用 **仅限学术研究使用的许可协议**。
+
+* Original repository: [https://github.com/TencentYoutuResearch/CrowdCounting-P2PNet](https://github.com/TencentYoutuResearch/CrowdCounting-P2PNet)
+* 原始仓库：[https://github.com/TencentYoutuResearch/CrowdCounting-P2PNet](https://github.com/TencentYoutuResearch/CrowdCounting-P2PNet)
+
+### Key Restrictions / 关键限制：
+
+* Use is permitted **for academic research purposes only**
+  仅允许用于**学术研究目的**
+* Redistribution must retain the original copyright and license
+  再分发必须保留原始版权声明和许可协议
+* Tencent name may not be used for endorsement without permission
+  未经许可不得使用腾讯名称进行背书或宣传
+
+### Full License Text / 完整许可文本：
+
+Redistribution and use in source and binary forms, with or without modification, are permitted provided
+that the following conditions are met:
+
+1. Use in source and binary forms shall only be for the purpose of academic research.
+
+2. Redistributions of source code must retain the above copyright notice, this list of conditions and the
+   following disclaimer.
+
+3. Redistributions in binary form must reproduce the above copyright notice, this list of conditions and
+   the following disclaimer in the documentation and/or other materials provided with the distribution.
+
+4. Neither the name of the copyright holder nor the names of its contributors may be used to endorse
+   or promote products derived from this software without specific prior written permission.
+
+THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+
+（以上为原始英文许可文本，具有法律效力；中文仅供理解参考。）
+
+---
+
+## 3. YOLOv8 License (AGPLv3) / YOLOv8 许可（AGPLv3）
+
+This project also uses **YOLOv8** by Ultralytics.
+本项目还使用了 Ultralytics 提供的 **YOLOv8**。
+
+* Repository: [https://github.com/ultralytics/ultralytics](https://github.com/ultralytics/ultralytics)
+* License: GNU Affero General Public License v3.0 (AGPLv3)
+  [https://github.com/ultralytics/ultralytics/blob/main/LICENSE](https://github.com/ultralytics/ultralytics/blob/main/LICENSE)
+
+### Important Notes / 重要说明：
+
+* YOLOv8 is licensed under **AGPLv3**, which imposes strong copyleft requirements
+  YOLOv8 使用 **AGPLv3** 许可，具有强传染性开源要求
+* If this project is used as part of a network service, the source code must be made available under AGPLv3
+  若本项目作为网络服务的一部分使用，必须按照 AGPLv3 公开源代码
+* Users must comply with all terms of the AGPLv3 license
+  使用者必须遵守 AGPLv3 的全部条款
+
+---
+
+## 4. Third-Party License Compliance / 第三方许可合规
+
+This project complies with the licenses of all included third-party components.
+本项目遵守所有包含的第三方组件的许可协议。
+
+Users of this repository are responsible for ensuring compliance with:
+使用本仓库的用户需自行确保符合以下许可要求：
+
+* P2PNet research-only license
+* P2PNet 仅限科研使用许可
+* YOLOv8 AGPLv3 license
+* YOLOv8 AGPLv3 许可
+
+---
+
+## 5. Disclaimer / 免责声明
+
+This project is provided "as is", without warranty of any kind.
+本项目按“现状”提供，不附带任何形式的担保。
+
+---
+
+## ⚠️ Important Reminder / 重要提醒
+
+Due to the **P2PNet research-only restriction** and the **AGPLv3 requirements of YOLOv8**, this project may **not be suitable for commercial use** without proper licensing and legal review.
+由于 **P2PNet 的科研限制** 以及 **YOLOv8 的 AGPLv3 要求**，在未获得适当授权和法律评估前，本项目**不适用于商业用途**。
