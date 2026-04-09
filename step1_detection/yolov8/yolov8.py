@@ -252,22 +252,22 @@ if __name__ == '__main__':
         weight_path=r'/home/tiancheng/PycharmProjects/YoloLeaftip'
                     r'/runs/detect/train13/weights/best.pt'
     )
+    img_dir = r'./data/images'
+    img_list = Path(img_dir).rglob('*.jpg')
+    for p in img_list:
+        result_out_path = (r'/home/tiancheng/PycharmProjects/P2PNET_ROOT/DATA_ROOT/temp/example_yolov8_result.json')
 
-    p = r'/home/tiancheng/PycharmProjects/P2PNET_ROOT/DATA_ROOT/temp/example.jpg'
+        with Image.open(str(p)) as fp:
+            image = np.array(fp)
+        points = partition_eval_merge(image, model, wrap_thickness=384)
 
-    result_out_path = (r'/home/tiancheng/PycharmProjects/P2PNET_ROOT/DATA_ROOT/temp/example_yolov8_result.json')
-
-    with Image.open(str(p)) as fp:
-        image = np.array(fp)
-    points = partition_eval_merge(image, model, wrap_thickness=384)
-
-    # visualize
-    plt.subplots()
-    plt.imshow(image)
-    plt.scatter([point[0] for point in points],
-                [point[1] for point in points],
-                c='red',
-                label='YOLOv8', )
-    plt.legend()
+        # visualize
+        plt.subplots()
+        plt.imshow(image)
+        plt.scatter([point[0] for point in points],
+                    [point[1] for point in points],
+                    c='red',
+                    label='YOLOv8', )
+        plt.legend()
 
     pass
