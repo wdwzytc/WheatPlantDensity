@@ -1,1 +1,0 @@
-conda create -n temp_env_4 python=3.10 numpy=1.26 pandas matplotlib scipy scikit-learn tqdm openpyxl

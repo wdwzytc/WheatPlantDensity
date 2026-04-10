@@ -5,7 +5,7 @@ matplotlib.use('tkagg')
 import matplotlib.pyplot as plt
 from pathlib import Path
 import pandas as pd
-from ..data.loader import load_dataset, get_dataset_for_dynamic
+from ..data_loader.loader import load_dataset, get_dataset_for_dynamic
 from ..simulation.generator import generate_dataset_of_leaf_dynamics
 from ..simulation.lut_builder import dataset_to_lut
 from ..core.lut import lut_invert
@@ -16,12 +16,12 @@ import os
 
 
 def run_density_estimation(
-        fig_out_dir=r'./step2_dynamic_estimation/outputs',
+        fig_out_dir=r'./outputs',
         input_source='corrected_p2pnet_detection',
         flag_show_image=False,
 ):
     BASE_DIR = os.path.dirname(os.path.abspath(__file__))
-    df = load_dataset(os.path.join(BASE_DIR, "../data/dataset_index.xlsx"))
+    df = load_dataset(os.path.join(BASE_DIR, "../../data/leaftip_dynamic_data/dataset_index.xlsx"))
 
     # ---setting variables---
 
