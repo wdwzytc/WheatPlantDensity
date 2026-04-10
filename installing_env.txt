@@ -1,0 +1,1 @@
+conda create -n wheat_plant_density_env python=3.10 numpy=1.26 pandas scipy matplotlib scikit-learn tqdm openpyxl pillow albumentations=1.4.10 ultralytics=8.2.69 pytorch=2.4.0 torchvision=0.19.0 torchaudio=2.4.0 pytorch-cuda=11.8 -c nvidia -c pytorch -c conda-forge -c defaults
