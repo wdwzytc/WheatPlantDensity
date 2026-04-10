@@ -255,7 +255,6 @@ if __name__ == '__main__':
     img_dir = r'./data/images'
     img_list = Path(img_dir).rglob('*.jpg')
     for p in img_list:
-        result_out_path = (r'/home/tiancheng/PycharmProjects/P2PNET_ROOT/DATA_ROOT/temp/example_yolov8_result.json')
 
         with Image.open(str(p)) as fp:
             image = np.array(fp)

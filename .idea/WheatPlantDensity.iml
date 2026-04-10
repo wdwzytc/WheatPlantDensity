@@ -6,7 +6,7 @@
       <excludeFolder url="file://$MODULE_DIR$/outputs" />
       <excludeFolder url="file://$MODULE_DIR$/step2_dynamic_estimation/outputs" />
     </content>
-    <orderEntry type="jdk" jdkName="temp_env_5" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="wheat_plant_density_env" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="PyDocumentationSettings">
