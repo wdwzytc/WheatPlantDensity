@@ -42,6 +42,7 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 - 任务：小麦叶尖检测
 
 - 位置：/step1_detection/yolov8/yolov8.py
+- Location：/step1_detection/yolov8/yolov8.py
 
 ---
 
@@ -53,6 +54,7 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 - Task: Wheat leaf tip detection (point-based)
 - 任务：小麦叶尖检测（基于点目标）
 
+- Location：/step1_detection/p2pnet/p2pnet.py
 - 位置：/step1_detection/p2pnet/p2pnet.py
 
 ---
@@ -65,6 +67,7 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 - Task: Wheat leaf tip detection (point-based)
 - 任务：小麦叶尖检测（基于点目标）
 
+- Location：/step2_dynamic_estimation/main.py
 - 位置：/step2_dynamic_estimation/main.py
 
 ---
