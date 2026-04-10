@@ -145,7 +145,7 @@ def get_wrapped_patch(
     return patch
 
 
-def get_yolo_model(weight_path=r'/home/tiancheng/PycharmProjects/YoloLeaftip/runs/detect/train13/weights/best.pt'):
+def get_yolo_model(weight_path):
     model = YOLO(weight_path)
 
     return model
@@ -249,8 +249,7 @@ if __name__ == '__main__':
     pass
 
     model = get_yolo_model(
-        weight_path=r'/home/tiancheng/PycharmProjects/YoloLeaftip'
-                    r'/runs/detect/train13/weights/best.pt'
+        weight_path=r'./data/weights/YOLOv8_train13_best.pt'
     )
     img_dir = r'./data/images'
     img_list = Path(img_dir).rglob('*.jpg')
