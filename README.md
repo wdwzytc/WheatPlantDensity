@@ -31,7 +31,7 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 
 ---
 
-## 📦 Released Content (Core Version) 发布内容（核心版）
+## 📦 Released Content 发布内容
 
 ### 1. YOLOv8-based Leaf Tip Detection Model 基于 YOLOv8 的叶尖检测模型
 
@@ -41,8 +41,8 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 - Task: Wheat leaf tip detection
 - 任务：小麦叶尖检测
 
-- 位置：/step1_detection/yolov8/yolov8.py
-- Location：/step1_detection/yolov8/yolov8.py
+- 代码位置：/step1_detection/yolov8/yolov8.py
+- Code Location：/step1_detection/yolov8/yolov8.py
 
 ---
 
@@ -54,8 +54,8 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 - Task: Wheat leaf tip detection (point-based)
 - 任务：小麦叶尖检测（基于点目标）
 
-- Location：/step1_detection/p2pnet/p2pnet.py
-- 位置：/step1_detection/p2pnet/p2pnet.py
+- Code Location：/step1_detection/p2pnet/p2pnet.py
+- 代码位置：/step1_detection/p2pnet/p2pnet.py
 
 ---
 
@@ -67,8 +67,8 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 - Task: Wheat leaf tip detection (point-based)
 - 任务：小麦叶尖检测（基于点目标）
 
-- Location：/step2_dynamic_estimation/main.py
-- 位置：/step2_dynamic_estimation/main.py
+- Code Location：/step2_dynamic_estimation/main.py
+- 代码位置：/step2_dynamic_estimation/main.py
 
 ---
 
