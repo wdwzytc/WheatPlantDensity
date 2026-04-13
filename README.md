@@ -59,7 +59,7 @@ Estimate plant density for wheat-like plants at early stages, using leaf tip det
 
 ---
 
-### 3. Leaf Tip Dynamic Estimation Model 
+### 3. Leaf Tip Dynamic Estimation Model 基于叶尖动态的植株密度估测模型
 
 - Method: 
 - 方法：叶片动态模型 + 查找表反演
